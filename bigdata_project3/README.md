@@ -2,8 +2,25 @@
 Big Data Management | ITU | 2017
 
 
-## Links
+## General
 
+Google Maps API: AIzaSyANXOShSudVIsMA1sr0oLDkgQRDtGzut4s
+
+NewServer: group4@hq.itu.dk
+OldServer: 130.226.142.184
+Username: group4
+Password: ns1YklXeoDQTKZjyIm5guLToZhVpGV2Y
+
+## SSH
+
+```sh
+   ssh-copy-id -i ~/.ssh/mykey user@host
+```
+Note:
+ - you DON'T need to navigate to your local /.ssh folder and run it from there
+ - change `user@host` and `mykey` to your key name
+
+## Links
 
 ### Google docs
 [Project 3 notes](https://docs.google.com/document/d/1RSrerc3Xk5uUbw0YgoSN7HxYr1mYQqiV2G8uocoPHPI/edit#)
@@ -20,3 +37,7 @@ Big Data Management | ITU | 2017
 ### Description
 
 [Project Description](https://github.com/ToPeter/bigdata_itu/blob/master/bigdata_project3/doc/BDM%20Project%203%20-%20Description.pdf)
+
+### HDFS
+
+[101 Run on server](https://hortonworks.com/hadoop-tutorial/using-commandline-manage-files-hdfs/)
